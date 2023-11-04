@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CookPal</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lora:ital,wght@0,400;1,600&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/9757/9757044.png" type="image/x-icon">
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    <link rel="stylesheet" href="navbarspecial.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-box">
+                    <button class="toggle-menu">
+                        <img src="./image/menu.png" alt="menu">
+                    </button>
+                    
+                    <a href="#" class="brand">
+                        <img src="./image/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <div class="toggle-box toggle-class">
+                    <div class="menu-box">
+                        <a href="#home" class="nav-menu">Home</a>
+                        <a href="#explore" class="nav-menu">Explore</a>
+                        <a href="#help" class="nav-menu">Help</a>
+                    </div>
+    
+                    <div class="profile-box">
+                        <a href="#" class="brand-2">
+                            <img src="./image/logo.png" alt="logo">
+                        </a>
+                        <a href="#" class="profile">
+                            <img src="./image/Profile.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <div class="hero center-2" id="home">
+            <img src="./image/hero.png" alt="banner..." class="hero-img">
+            <div class="hero-content">
+                <p class="trend">Trending now</p>
+                <p class="trend-item">Mike’s famous salad<br>with cheese</p>
+                <p class="cook">By John Mike</p>
+            </div>
+        </div>
+
+
+        <div class="search-box center-2" id="explore">
+            <h2 class="search-heading">Search For Recipes</h2>
+            <div class="search-bar">
+                <img src="./image/search-left.png" alt="search..." class="search-img-left">
+                <input type="search" name="search-ip" id="search-ip" class="search-ip" placeholder="Search for recipes...">
+                <button type="submit" class="search-btn">
+                    <img src="./image/search.png" alt="search..." class="search-img">
+                </button>
+            </div>
+        </div>
+
+
+        <div class="filter-btn-section center-2">
+            <button class="filter-btn all">
+                All Recipes
+                <img src="./image/right.png" alt="">
+            </button>
+            <button class="filter-btn veg">
+                Veg Recipes Only
+                <img src="./image/right.png" alt="">
+            </button>
+            <button class="filter-btn non-veg">
+                Non Veg Recipes
+                <img src="./image/right.png" alt="">
+            </button>
+        </div>
+
+
+        <div class="product-section center-2">
+            <div class="left">
+                <h2>Filters</h2>
+                <div class="rating-filter">
+                    <h3>Rating</h3>
+                    <div class="check-ip">
+                        <input type="checkbox" name="rate" id="above" value="4 and Above">
+                        <label for="above">4 and Above</label>
+                    </div>
+                    <div class="check-ip">
+                        <input type="checkbox" name="rate" id="below" value="Below 4">
+                        <label for="below">Below 4</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right product-box">
+                <h1 class="no-result">
+                    No result found !!
+                </h1>
+                <!-- <div class="card">
+                    <img src="./image/card.png" alt="card...">
+                    <div class="type">Veg</div>
+                    <div class="title-box">
+                        <h3 class="title">Russian Salad</h3>
+                        <div class="rating-box">
+                            <img src="./image/rating.png" alt="rating...">
+                            <p class="rating">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card-foot">
+                        <h5 class="time">40 min</h5>
+                        <div class="react-box">
+                            <img src="./image/like.png" alt="" class="like">
+                            <img src="./image/liked.png" alt="" class="liked d-none">
+                            <img src="./image/comment.png" alt="">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="about center-2" id="help">
+            <div class="footer-left">
+                <img src="./image/logo.png" alt="">
+                <p class="left-content">
+                    Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!
+                </p>
+            </div>
+            <div class="footer-mid">
+                <div class="company">
+                    <h2>Company</h2>
+                    <a href="#">Home</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Team</a>
+                    <a href="#">About us</a>
+                    <a href="#">Activity</a>
+                </div>
+                <div class="resources">
+                    <h2>Resources</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Use Cases</a>
+                    <a href="#">Testinomials</a>
+                    <a href="#">Insigts</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <img src="./image/logo.png" alt="">
+                <p class="right-content">
+                    Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.
+                </p>
+                <div class="subscribe">
+                    <div class="mail-box">
+                        <input type="email" placeholder="Your Email" class="mail-ip">
+                        <img src="./image/at.png" alt="at...">
+                    </div>
+                    <button class="sbc-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer center-2">
+            <img src="./image/instagram.png" alt="">
+            <img src="./image/twitter.png" alt="">
+            <img src="./image/linkedin.png" alt="">
+            <img src="./image/facebook.png" alt="">
+        </div>
+    </div>
+
+    <!-- link js file -->
+    <script src="script.js"></script>
+</body>
+</html>
